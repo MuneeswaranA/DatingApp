@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DatingApp.Data;
 using DatingApp.Dtos;
 using DatingApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -76,6 +77,5 @@ namespace DatingApp.Controllers
             });
 
         }
-
     }
 }
